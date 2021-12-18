@@ -1,6 +1,14 @@
 import React from 'react'
 import './NavigationBar.scss'
+import { NavLink } from 'react-router-dom'
 function NavigationBar() {
+  const handleNavigate = (e) => {
+    const links = document.querySelectorAll('.nav-link')
+    links.forEach((item) => {
+      item.classList.remove('active-blue')
+    })
+    e.target.classList.add('active-blue')
+  }
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container'>
@@ -19,28 +27,33 @@ function NavigationBar() {
         </button>
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav ml-auto'>
-            <li className='nav-item active'>
-              <a className='nav-link' href='#home'>
-                Home <span className='sr-only'>(current)</span>
+            <li>
+              <a onClick={handleNavigate} className='nav-link' href='#home'>
+                Home
+              </a>
+            </li>
+            <li>
+              <a onClick={handleNavigate} className='nav-link' href='#about'>
+                About
+              </a>
+            </li>
+            <li>
+              <a onClick={handleNavigate} className='nav-link' href='#featured'>
+                Featured
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#about'>
-                About Us
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#service'>
+              <a onClick={handleNavigate} className='nav-link' href='#service'>
                 Our Services
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#respon'>
-                Responsibilities
+              <a onClick={handleNavigate} className='nav-link' href='#news'>
+                News
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#contrys'>
+              <a onClick={handleNavigate} className='nav-link' href='#contrys'>
                 Countrys
               </a>
             </li>

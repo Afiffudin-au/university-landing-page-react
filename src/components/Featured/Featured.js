@@ -2,7 +2,7 @@ import React from 'react'
 import './Features.scss'
 function Featured() {
   return (
-    <section className='featured'>
+    <section className='featured' id='featured'>
       <div className='container'>
         <div className='row mt-5 text-center'>
           <div className='col-md-12'>

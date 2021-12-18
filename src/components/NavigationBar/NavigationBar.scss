@@ -1,13 +1,20 @@
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   .navbar-nav {
     li {
-      a {
-        color: #373737 !important;
+      .nav-link {
+        color: #373737;
         font-size: 14px;
         margin-right: 30px;
       }
     }
   }
+}
+.active-blue {
+  color: rgb(38, 130, 236) !important;
+  font-weight: bold;
 }
 @media (max-width: 576px) {
   .navbar {

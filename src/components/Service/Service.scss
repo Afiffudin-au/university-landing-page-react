@@ -1,0 +1,46 @@
+.our-service {
+  min-height: 900px;
+  margin-top: 150px;
+}
+.title {
+  font-size: 37px;
+  letter-spacing: 0.1px;
+  color: #373737;
+}
+.desc {
+  font-size: 22px;
+  color: #7d7d7d;
+}
+.our-service .cardBox {
+  padding: 20px;
+  cursor: pointer;
+  text-align: left;
+}
+.our-service .cardBox .cardContent {
+  padding-top: 30px;
+}
+.our-service .cardBox .cardContent p {
+  font-size: 16px;
+  color: #37474f;
+  opacity: 72%;
+}
+.our-service .cardBox .cardContent h5 {
+  font-size: 24px;
+  color: #37474f;
+}
+.active-service-card {
+  transition: all 0.1s ease-in-out;
+  border: 3px solid #717cff;
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+  .our-service {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .our-service .cardBox {
+    text-align: center;
+  }
+}
