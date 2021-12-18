@@ -1,9 +1,9 @@
 .jumbotron {
   background: transparent !important;
+  margin-bottom: 0 !important;
   .jumbotron-container {
-    position: relative;
     .jumbotron__content {
-      width: 632px;
+      text-align: center;
       .jumbotron__shareNavigation {
         margin-top: 60px !important;
       }
@@ -17,39 +17,19 @@
       }
     }
     .jumbotron__girl {
-      position: absolute;
-      top: -77px;
-      left: 60%;
-    }
-    object {
-      z-index: -999;
-      position: absolute;
-      top: 15px;
-      right: -52%;
-      overflow-x: hidden;
-      width: 1030px;
+      display: block;
+      width: 80%;
+      object-fit: contain;
+      margin: auto;
     }
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 992px) {
   .jumbotron {
-    .jumbotron__girl {
-      position: absolute;
-      top: 200px;
-      left: 33%;
-      object-fit: contain;
-      background-position: center;
-    }
-  }
-  .jumbotron {
-    object {
-      z-index: -999;
-      position: absolute;
-      top: 266px;
-      right: -97%;
-      overflow-x: hidden;
-      width: 1030px;
-      max-height: 500px;
+    .jumbotron-container {
+      .jumbotron__content {
+        text-align: left;
+      }
     }
   }
 }

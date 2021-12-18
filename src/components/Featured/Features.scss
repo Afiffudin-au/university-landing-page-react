@@ -1,54 +1,24 @@
 .featured {
-  margin-top: 80px;
   background-color: rgb(255, 255, 255);
   height: 400px;
-}
-.featured-title {
-  margin-top: 50px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 23px;
-  opacity: 73%;
-  color: #373737;
-}
-.carousel-indicators {
-  bottom: -100px !important;
-  left: 0;
-  border-radius: 50%;
-}
-.carousel-indicators li {
-  display: inline-block;
-  background-color: none;
-  background-color: #30a8db !important;
-  width: 10px !important;
-  height: 10px !important;
-  border-radius: 50%;
-}
-.our-servce {
-  min-height: 900px;
-  margin-top: 150px;
-}
-.outService__p {
-  font-size: 37px;
-  letter-spacing: 0.1px;
-  color: #373737;
-}
-.outService__desc {
-  font-size: 22px;
-  color: #7d7d7d;
-}
-.our-servce .cardBox {
-  text-align: left;
-}
-.our-servce .cardBox .cardContent {
-  padding-top: 30px;
-}
-.our-servce .cardBox .cardContent p {
-  font-size: 16px;
-  color: #37474f;
-  opacity: 72%;
-}
-.our-servce .cardBox .cardContent h5 {
-  font-size: 24px;
-  color: #37474f;
+  .featured-title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 23px;
+    opacity: 73%;
+    color: #373737;
+  }
+  .carousel-indicators {
+    bottom: -100px !important;
+    left: 0;
+    border-radius: 50%;
+    li {
+      display: inline-block;
+      background-color: none;
+      background-color: #30a8db !important;
+      width: 10px !important;
+      height: 10px !important;
+      border-radius: 50%;
+    }
+  }
 }
