@@ -1,0 +1,55 @@
+.jumbotron {
+  background: transparent !important;
+  .jumbotron-container {
+    position: relative;
+    .jumbotron__content {
+      width: 632px;
+      .jumbotron__shareNavigation {
+        margin-top: 60px !important;
+      }
+      .jumbotron__shareNavigation a {
+        margin-right: 20px;
+      }
+      .jumbotron__apply {
+        background-color: #717cff !important;
+        width: 262px;
+        height: 64;
+      }
+    }
+    .jumbotron__girl {
+      position: absolute;
+      top: -77px;
+      left: 60%;
+    }
+    object {
+      z-index: -999;
+      position: absolute;
+      top: 15px;
+      right: -52%;
+      overflow-x: hidden;
+      width: 1030px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .jumbotron {
+    .jumbotron__girl {
+      position: absolute;
+      top: 200px;
+      left: 33%;
+      object-fit: contain;
+      background-position: center;
+    }
+  }
+  .jumbotron {
+    object {
+      z-index: -999;
+      position: absolute;
+      top: 266px;
+      right: -97%;
+      overflow-x: hidden;
+      width: 1030px;
+      max-height: 500px;
+    }
+  }
+}
