@@ -76,7 +76,8 @@ function Service() {
         </div>
         <div
           className='row justify-content-center '
-          style={{ marginTop: '100px' }}>
+          style={{ marginTop: '100px' }}
+        >
           <div className='col-md-4 mb-5'>
             <div onClick={handleActive} className='cardBox'>
               <img src='/assets/images/Group3.png' alt='' />

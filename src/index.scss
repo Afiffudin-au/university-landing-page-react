@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.carousel-indicators {
+  bottom: -100px !important;
+  left: 0;
+  border-radius: 50%;
+  li {
+    display: inline-block;
+    background-color: none;
+    background-color: #30a8db !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+  }
+}

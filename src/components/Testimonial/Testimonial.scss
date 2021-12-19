@@ -1,0 +1,36 @@
+.testimonial {
+  height: 650px;
+  .header-desc {
+    margin-bottom: 90px;
+  }
+  h5 {
+    font-size: 37px;
+    color: #37474f;
+  }
+  .testimonial__header {
+    color: #7d7d7d;
+    font-size: 22;
+  }
+  .testimonial__card {
+    padding: 30px;
+    .testimonial__name {
+      color: #37474f;
+      font-size: 22px;
+    }
+    .testimonial__status {
+      font-size: 18px;
+      opacity: 65%;
+      color: #37474f;
+    }
+    .testimonial__decs {
+      font-size: 18px;
+      opacity: 72%;
+      color: #37474f;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .testimonial {
+    height: 944px;
+  }
+}

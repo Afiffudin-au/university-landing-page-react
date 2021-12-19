@@ -1,0 +1,41 @@
+.countries {
+  height: 750px;
+  h5 {
+    color: #373737;
+    font-size: 37px;
+  }
+  .countries__desc {
+    color: #37474f;
+    opacity: 72%;
+    font-size: 16px;
+  }
+  .countries__header {
+    color: #7d7d7d;
+    font-size: 22;
+  }
+  h6 {
+    color: #37474f;
+    font-size: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .countries {
+    text-align: center;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .countries {
+    text-align: center;
+    min-height: 1309px;
+    margin-top: 150px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .countries {
+    .countries__imgThumb {
+      width: 220px;
+      object-fit: contain;
+    }
+  }
+}

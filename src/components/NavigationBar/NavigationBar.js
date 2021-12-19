@@ -22,7 +22,8 @@ function NavigationBar() {
           data-target='#navbarNav'
           aria-controls='navbarNav'
           aria-expanded='false'
-          aria-label='Toggle navigation'>
+          aria-label='Toggle navigation'
+        >
           <span className='navbar-toggler-icon'></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarNav'>
@@ -53,7 +54,7 @@ function NavigationBar() {
               </a>
             </li>
             <li className='nav-item'>
-              <a onClick={handleNavigate} className='nav-link' href='#contrys'>
+              <a onClick={handleNavigate} className='nav-link' href='#country'>
                 Countrys
               </a>
             </li>
@@ -61,7 +62,8 @@ function NavigationBar() {
               <button
                 style={{ width: '150px' }}
                 type='button'
-                className='btn btn-outline-primary rounded-pill'>
+                className='btn btn-outline-primary rounded-pill'
+              >
                 Apply
               </button>
             </li>

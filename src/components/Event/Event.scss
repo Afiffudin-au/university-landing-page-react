@@ -1,0 +1,29 @@
+.upcoming-event {
+  min-height: 400px;
+  .date {
+    color: #717cff;
+    border-radius: 11px;
+    width: 76px;
+    height: 76px;
+    background-color: #515ac73b;
+    text-align: center;
+    .number-date {
+      font-size: 27px;
+    }
+    .mount-date {
+      font-size: 18px;
+    }
+  }
+  .header {
+    font-size: 24px;
+  }
+  .carousel-inner h5 {
+    color: #37474f;
+    font-size: 24px;
+  }
+  .carousel-inner p {
+    color: #37474f;
+    opacity: 72%;
+    font-size: 16px;
+  }
+}
