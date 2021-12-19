@@ -2,7 +2,7 @@ import React from 'react'
 import './Testimonial.scss'
 function Testimonial() {
   return (
-    <section className='testimonial'>
+    <section className='testimonial' id='testimonials'>
       <div className='container'>
         <div className='row text-center'>
           <div className='col-md-12'>
@@ -21,22 +21,18 @@ function Testimonial() {
         <div
           id='carousel4ExampleIndicators'
           className='carousel slide'
-          data-ride='carousel'
-        >
+          data-ride='carousel'>
           <ol className='carousel-indicators'>
             <li
               data-target='#carousel4ExampleIndicators'
               data-slide-to='0'
-              className='active'
-            ></li>
+              className='active'></li>
             <li
               data-target='#carousel4ExampleIndicators'
-              data-slide-to='1'
-            ></li>
+              data-slide-to='1'></li>
             <li
               data-target='#carousel4ExampleIndicators'
-              data-slide-to='2'
-            ></li>
+              data-slide-to='2'></li>
           </ol>
           <div className='carousel-inner'>
             <div className='carousel-item active'>

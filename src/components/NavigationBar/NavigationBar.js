@@ -59,6 +59,11 @@ function NavigationBar() {
               </a>
             </li>
             <li className='nav-item'>
+              <a onClick={handleNavigate} className='nav-link' href='#testimonials'>
+              Testimonials
+              </a>
+            </li>
+            <li className='nav-item'>
               <button
                 style={{ width: '150px' }}
                 type='button'
